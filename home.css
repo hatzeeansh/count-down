@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url('beach.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.start{
+    margin-top: 25px;
+    height: 35px;
+    width: 90px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#input-date{
+    height: 40px;
+    width:250px;
+    padding:10px;
+}
+
+label{
+    margin-bottom: 10px;
+    font-size: larger;
+    color:black;
+
+}
+
+.notification-class{
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+}
